@@ -5,5 +5,5 @@ export type SignInBody = {
 }
 
 export async function signIn({ email }: SignInBody) {
-  api.post('/authenticate', { email })
+  await api.post('/authenticate', { email })
 }
