@@ -6,7 +6,7 @@ export type GetDailyRevenueInPeriodQuery = {
 }
 
 export type GetDailyRevenueInPeriodResponse = {
-  date: number
+  date: string
   receipt: number
 }[]
 
